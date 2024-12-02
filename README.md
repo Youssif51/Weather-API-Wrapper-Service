@@ -15,12 +15,9 @@ This ensures that the weather data is quickly available and reduces redundant ca
 - **Caching**: Weather data is cached in Redis for 12 hours to reduce unnecessary calls to the external API.
 - **Error Handling**: The API has error handling in place to handle any issues that may arise when fetching data from Redis or the external API.
 - **Weather Data Retrieval**: If data is cached in Redis, it's returned directly. If not, it’s fetched from the weather API and cached for subsequent requests.
-# Weather API with Redis Caching
 
-![Weather API Logo](images/weather-api-f8i1q(1).png)
-
-This project is a simple Weather API...
-
+![Weather API Logo](images/weather-api.png)  
+*Above is a diagram representing the Weather API. It helps illustrate the core function of the API - fetching weather data efficiently.*
 
 ## **How to Use**
 
@@ -31,6 +28,6 @@ Make sure you have the following installed:
 
 ### **2. Install Dependencies**
 Clone the repository and install the dependencies by running the following command:
-ب
+
 ```bash
 npm install
