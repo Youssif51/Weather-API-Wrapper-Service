@@ -17,7 +17,7 @@ This ensures that the weather data is quickly available and reduces redundant ca
 - **Weather Data Retrieval**: If data is cached in Redis, it's returned directly. If not, it’s fetched from the weather API and cached for subsequent requests.
 # Weather API with Redis Caching
 
-![Weather API Logo](images/weather-logo.png)
+![Weather API Logo](images/weather-api-f8i1q(1).png)
 
 This project is a simple Weather API...
 
